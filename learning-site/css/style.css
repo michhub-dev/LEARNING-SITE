@@ -1,0 +1,138 @@
+body{
+    background-color: cornflowerblue;
+    
+}
+
+header{
+    text-align: right;
+}
+
+ .h1{
+    text-align: right;
+    color: rgb(70, 18, 59);
+}
+
+.h1 i{
+    color: rgb(93, 68, 206);
+}
+
+header a{
+    color: maroon;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin: 5px;
+    
+}
+
+header a:hover{
+    background: rgb(243, 189, 189);
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: seashell;
+}
+
+button{
+    background-color:  lightcoral;
+    width: 10%;
+    height: 5vh;
+    border-radius: 3rem;
+    font-weight: bolder;
+    border: none;
+    color: ghostwhite;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+button:hover{
+     background-color: lightpink;
+}
+
+.btn1{
+    background-color:deepskyblue;
+}
+
+img{
+    width: 1250px;
+    height: 550px;
+}
+
+.btn2{
+    background-color: limegreen;
+}
+
+.btn3{
+    background-color: mediumorchid;
+}
+
+footer{
+    margin-top: 3rem;
+}
+
+ .twitter a i{
+    color: dodgerblue;
+}
+
+.instagram a i{
+    color: purple;
+}
+
+.facebook a i{
+    color: blue;
+}
+
+.email a i {
+    color:brown;
+}
+
+span a{
+    color: rgb(70, 18, 59)
+}
+
+span a:hover{
+    color: lightgrey;
+}
+
+@media(max-width:650px){
+    img{
+        width: 100%;
+    }
+
+    button{
+        width: 30%;
+    }
+
+    .h1{
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+}
+
+@media(min-width: 651px){
+    img{
+        width: 100%;
+    }
+
+    button{
+        width: 15%;
+    }
+
+    .h1{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+}
